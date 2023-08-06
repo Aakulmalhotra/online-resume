@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    background-image: url('pics/resumee.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+   /* background-attachment: fixed;*/
+}
+/*navigation bar*/
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.horizontal-list li{
+   display: inline-block;
+   margin: 0px 40px 40px 0px;
+}
+.horizontal-list li a {
+ color: white;
+ text-decoration: none;
+ font-size: 1.2rem;
+ transition: color 0.5s;
+
+ }
+ .text-center{
+    text-align: center;
+ 
+ }
+ .horizontal-list li a:hover {
+    color: wheat;
+    }
+    /*About Section*/
+    #about{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+    #my-image{
+        height: 12 rem;
+        width: 12 rem;
+        margin-left: 42%;
+        margin-top: -17vh;
+    }
+    .my-name{
+        color: white;
+        font-size: 8rem;
+        font-family:Arial, Helvetica, sans-serif;
+        text-shadow: 8px 5px 13px #A66CFF;
+        
+
+    }
+       
+       
+
+    
+    #my-image img{
+        height: 35%;
+        width: 30%;
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px 2px lightgrey;
+       
+    }
+    /*social icons*/
+        .icons {
+            list-style: none;
+            padding-left: 0px;
+            margin-bottom: 50px;
+          
+        }
+         .icons li{
+            display: inline-block;
+            margin: 0px 50px 50px 0px;
+         }
+         .icons li a {
+          color: white;
+          text-decoration: none;
+          
+          }
+    /*para*/
+    strong{
+        color: #1363DF;
+    }
+    .intro{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    /*skills*/
+    .section-heading{
+        height: 100px;
+        width: 70%;
+       /* border: 2px solid black;*/
+   
+    }
+    .section-heading span{
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        color: #31087B;
+    }
+   
+    .fa-solid fa-chalkboard-user{
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    /*experience*/
+    .exp{
+        font-size: 1.2rem ;
+        margin-left: 200px;
+        text-decoration: none;
+    }
+    .exp li{
+        font-size: 1.2rem ;
+        margin-left: 200px;
+      list-style: none;
+    }
+    .it{
+        font-size: 0.95rem;
+        color: grey;
+    }
+    
